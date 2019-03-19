@@ -1,4 +1,5 @@
 /* Universal Reset */
+@import url('https://fonts.googleapis.com/css?family=Lekton');
 
 *{
     box-sizing: border-box;
@@ -7,5 +8,31 @@
 }
 
 *::selection{
-    background-color:#686de0;
+    background-color:#c7ecee;
+}
+
+/* General CSS */
+
+body{
+    font-family: 'Lekton', sans-serif;
+}
+
+/* Nav */
+ nav{
+    background-color: #393E46;
+    color: #fff;
+    font-size: 1.4em;
+    height: 120px;
+    margin:0;
+    text-transform: uppercase;
+    display:flex;
+}
+
+nav ul{
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+}
+li{
+    list-style: none;
 }
