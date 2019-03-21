@@ -1,38 +1,87 @@
 /* Universal Reset */
-@import url('https://fonts.googleapis.com/css?family=Lekton');
+@import url("https://fonts.googleapis.com/css?family=Lekton");
 
-*{
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-*::selection{
-    background-color:#c7ecee;
+*::selection {
+  background-color: rgb(12, 161, 180);
 }
 
 /* General CSS */
 
-body{
-    font-family: 'Lekton', sans-serif;
+body {
+  font-family: "Lekton", sans-serif;
 }
 
 /* Nav */
- nav{
-    background-color: #393E46;
-    color: #fff;
-    font-size: 1.4em;
-    height: 120px;
-    margin:0;
-    text-transform: uppercase;
-    display:flex;
+nav {
+  background-color: #2d3436;
+  color: #fff;
+  font-size: 1.4em;
+  height: 76px;
+  margin: 0;
+  text-transform: uppercase;
 }
 
-nav ul{
-    display: flex;
-    margin: 0 auto;
-    padding: 0;
+nav ul {
+  align-items: center;
+  display: flex;
+  flex: wrap;
+  margin: 0 auto;
+  max-width: 1903px;
+  padding: 10px 2em;
+  width: auto;
 }
-li{
+
+nav a {
+  text-decoration: none;
+}
+nav li {
     list-style: none;
+  }
+
+.logo {
+  margin-right: auto;
+  transition: all .2s ease-in-out;
+}
+.logo span{
+    color: #00BCD4;
+    
+}
+.logo:hover{
+    font-size:1.05em;
+}
+.links {
+  margin-left: auto;
+  display: flex;
+  flex: wrap;
+}
+
+.links li {
+  margin-right: 30px;
+}
+.links li a {
+  padding: 5px;
+}
+/* LINK CSS */
+a {
+  color: #fff;
+}
+a:visited {
+  color: #fff;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 769px) {
+}
+
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 1000px) {
 }
