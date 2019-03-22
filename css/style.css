@@ -12,19 +12,23 @@
 }
 
 /* General CSS */
+html,
+body {
+}
 
 body {
   font-family: "Lekton", sans-serif;
 }
 
-/* Nav */
+/*===== Nav ====*/
 nav {
   background-color: #2d3436;
   color: #fff;
-  font-size: 1.4em;
+  font-size: 1.2em;
   height: 76px;
   margin: 0;
   text-transform: uppercase;
+  width: 100%;
 }
 
 nav ul {
@@ -34,26 +38,24 @@ nav ul {
   margin: 0 auto;
   max-width: 1903px;
   padding: 10px 2em;
-  width: auto;
 }
 
 nav a {
   text-decoration: none;
 }
 nav li {
-    list-style: none;
-  }
+  list-style: none;
+}
 
 .logo {
   margin-right: auto;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-.logo span{
-    color: #00BCD4;
-    
+.logo span {
+  color: #00bcd4;
 }
-.logo:hover{
-    font-size:1.05em;
+.logo:hover {
+  font-size: 1.05em;
 }
 .links {
   margin-left: auto;
@@ -74,14 +76,67 @@ a {
 a:visited {
   color: #fff;
 }
+/* ==Header Image== */
+.header-image {
+  background: #3a3959 url("../assets/headerImage.jpg") no-repeat center;
+  background-size: cover;
+  height: 400px;
+  font-size: 1.25em;
+  opacity: 0.95;
+  overflow: auto;
+  text-align: center;
+  width: 100%;
+}
 
+.header-image h1 {
+  color: #000;
+  padding-top: 100px;
+}
+
+.header-image span {
+  background-color: #0984e3;
+}
 /* Media Queries */
+/* TODO: Make  CSS for mobile/tablet for navbar */
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 601px) {
+}
+/*Tablet*/
+@media only screen and (max-width: 600px) {
+  .main-header {
+    font-size: 0.7em;
+  }
+  .main-header nav {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .links li a {
+    display: none;
+  }
+
+  .header-image{
+      height:370px;
+      transition: all 0.2s ease-in-out;
+  }
 }
 
-@media only screen and (min-width: 600px) {
+/* Mobile Landscape */
+@media only screen and (min-width: 480px) and (orientation: landscape) {
 }
 
-@media only screen and (min-width: 1000px) {
-}
+
+@media screen and (max-width: 991px) {
+    /* start of large tablet styles */
+    
+    }
+    
+    @media screen and (max-width: 767px) {
+    /* start of medium tablet styles */
+    
+    }
+    
+    @media screen and (max-width: 479px) {
+    /* start of phone styles */
+    
+    }
