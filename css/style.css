@@ -12,9 +12,6 @@
 }
 
 /* General CSS */
-html,
-body {
-}
 
 body {
   font-family: "Lekton", sans-serif;
@@ -103,21 +100,29 @@ a:visited {
 }
 /*Tablet*/
 @media only screen and (max-width: 600px) {
+  nav {
+    height: 200px;
+  }
   .main-header {
-    font-size: 0.7em;
+    font-size: 1.2em;
   }
   .main-header nav {
     align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .links li a {
-    display: none;
   }
 
-  .header-image{
-      height:370px;
-      transition: all 0.2s ease-in-out;
+  nav ul {
+    display: block;
+    text-align: center;
+  }
+  .links {
+    display: block;
+    text-align: center;
+    align-items: center;
+  }
+
+  .header-image {
+    height: 370px;
+    transition: all 0.2s ease-in-out;
   }
 }
 
@@ -125,18 +130,14 @@ a:visited {
 @media only screen and (min-width: 480px) and (orientation: landscape) {
 }
 
-
 @media screen and (max-width: 991px) {
-    /* start of large tablet styles */
-    
-    }
-    
-    @media screen and (max-width: 767px) {
-    /* start of medium tablet styles */
-    
-    }
-    
-    @media screen and (max-width: 479px) {
-    /* start of phone styles */
-    
-    }
+  /* start of large tablet styles */
+}
+
+@media screen and (max-width: 767px) {
+  /* start of medium tablet styles */
+}
+
+@media screen and (max-width: 479px) {
+  /* start of phone styles */
+}
