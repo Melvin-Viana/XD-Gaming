@@ -7,9 +7,7 @@
   padding: 0;
 }
 
-*::selection {
-  background-color: rgb(12, 161, 180);
-}
+
 
 /* General CSS */
 
@@ -33,7 +31,7 @@ nav ul {
   display: flex;
   flex: wrap;
   margin: 0 auto;
-  max-width: 1903px;
+  max-width: 1380px;
   padding: 10px 2em;
 }
 
@@ -51,9 +49,7 @@ nav li {
 .logo span {
   color: #00bcd4;
 }
-.logo:hover {
-  font-size: 1.05em;
-}
+
 .links {
   margin-left: auto;
   display: flex;
@@ -72,6 +68,9 @@ a {
 }
 a:visited {
   color: #fff;
+}
+a:hover{
+  color: #0984e3;
 }
 /* ==Header Image== */
 .header-image {
@@ -100,24 +99,31 @@ a:visited {
 }
 /*Tablet*/
 @media only screen and (max-width: 600px) {
-  nav {
-    height: 200px;
-  }
-  .main-header {
-    font-size: 1.2em;
-  }
-  .main-header nav {
-    align-items: center;
-  }
+ 
+}
 
+/* Mobile Landscape */
+@media only screen and (min-width: 480px) and (orientation: landscape) {
+}
+
+
+
+@media screen and (max-width: 562px) {
+  /* start of medium tablet styles */
+
+  nav {
+    height: 250px;
+    padding:10px;
+  }
+  
   nav ul {
     display: block;
     text-align: center;
   }
   .links {
     display: block;
-    text-align: center;
-    align-items: center;
+    font-size: 1.4em;
+    margin-top:10px;
   }
 
   .links li{
@@ -127,18 +133,10 @@ a:visited {
     height: 370px;
     transition: all 0.2s ease-in-out;
   }
-}
 
-/* Mobile Landscape */
-@media only screen and (min-width: 480px) and (orientation: landscape) {
-}
-
-@media screen and (max-width: 991px) {
-  /* start of large tablet styles */
-}
-
-@media screen and (max-width: 767px) {
-  /* start of medium tablet styles */
+  h1{
+   font-size: 2em;
+  }
 }
 
 @media screen and (max-width: 479px) {
