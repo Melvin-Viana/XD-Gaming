@@ -74,11 +74,10 @@ a:hover{
 }
 /* ==Header Image== */
 .header-image {
-  background: #3a3959 url("../assets/headerImage.jpg") no-repeat center;
+  background: url("../assets/headerImage.jpg") no-repeat center;
   background-size: cover;
   height: 400px;
   font-size: 1.25em;
-  opacity: 0.95;
   overflow: auto;
   text-align: center;
   width: 100%;
@@ -92,6 +91,16 @@ a:hover{
 .header-image span {
   background-color: #0984e3;
 }
+
+#callToAction{
+  align-items: center;
+  justify-content: center;
+  background-color:#3a3959 ; 
+  display: flex;
+  height:50px;
+  width:100%;
+}
+
 /* Media Queries */
 /* TODO: Make  CSS for mobile/tablet for navbar */
 
@@ -114,6 +123,8 @@ a:hover{
   nav {
     height: 250px;
     padding:10px;
+    transition: all 0.2s ease-in-out;
+
   }
   
   nav ul {
