@@ -1,1 +1,5 @@
-Credits to [Alex Haney](https://unsplash.com/@alexhaney) for the unsplash gaming image.
+
+## Acknowledgments
+ [Emmanuel](https://unsplash.com/@axvill) - Gaming Image
+
+[Sesohoq](https://www.sesohq.com/) - Quantum font
