@@ -18,7 +18,6 @@
 
 body {
   font-family: "Lato", sans-serif;
-  background:#20212A;
 }
 h1 {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
@@ -28,37 +27,34 @@ h1 {
 
 /*===== Nav ====*/
 nav {
-  background-color: #2d3436;
+  background-color: #232A3B;
   color: #fff;
-  height: 76px;
-  margin: 0;
+  font-size: 1.4em;
+  padding: 20px;
+  text-align: center;
   text-transform: uppercase;
-  width: 100%;
 }
 .logo {
-  font-size: 2.5em;
+  font-size: 1.25em;
+}
+.logo span {
   color: #33d9b2;
 }
 
-.links{
-
+.links {
+  list-style-type: none;
 }
-
+.links li {
+  margin-right: 25px;
+}
 /* LINK CSS */
 a {
   color: #fff;
   text-decoration: none;
 }
-a:visited {
-  color: #fff;
-}
-a:hover {
-  color: #38ada9;
-}
 /* ==Header Image== */
 .header-image {
-  background: url("../assets/headerImg.jpg")
-    no-repeat center;
+  background: #20212a url("../assets/headerImg.jpg") no-repeat center;
   background-size: cover;
   height: 400px;
   overflow: auto;
@@ -77,7 +73,7 @@ a:hover {
   color: #fff;
   margin-top: 100px;
   margin-bottom: 25px;
-  font-size: 2em;
+  align-self: center;
 }
 .header-image span {
   color: #33d9b2;
@@ -90,7 +86,7 @@ a:hover {
 
 #callToAction {
   align-items: center;
-  background-color:#20212A;
+  background-color: #20212a;
   justify-content: center;
   display: flex;
   height: 50px;
@@ -98,40 +94,39 @@ a:hover {
 }
 
 /* Media Queries */
-/* TODO: Make  CSS for mobile/tablet for navbar */
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 1024px) {
+
+}
+
+@media only screen and (min-width: 769px) {
+  .main-header nav, .main-header ul {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1em;
+  }
+  .main-header nav {
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .main-header ul {
+    margin-right: 10%;
+  }
+  .main-header h1 {
+    align-self: center;
+    margin: 0 auto;
+  }
+  .main-header li {
+    margin-right: 30px;
+  }
 }
 /*Tablet*/
-@media only screen and (max-width: 600px) {
-}
+@media only screen and (min-width: 500px) {
 
+}
 /* Mobile Landscape */
 @media only screen and (min-width: 480px) and (orientation: landscape) {
-}
-
-@media screen and (max-width: 562px) {
-  /* start of medium tablet styles */
-
-  nav {
-    height: 250px;
-    padding: 10px;
-    transition: all 0.2s ease-in-out;
-  }
-
-  nav ul {
-    display: block;
-    text-align: center;
-  }
-
-  .header-image {
-    height: 370px;
-  }
-
-  h1 {
-  }
-}
-
-@media screen and (max-width: 479px) {
-  /* start of phone styles */
 }
