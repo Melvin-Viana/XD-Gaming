@@ -125,7 +125,6 @@ a:hover {
 
   .header-image {
     height: 370px;
-    transition: all 0.2s ease-in-out;
   }
 
   h1 {
