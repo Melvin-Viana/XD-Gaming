@@ -1,7 +1,7 @@
 /* Universal Reset */
 @import url("https://fonts.googleapis.com/css?family=Lato");
 @font-face {
-  font-family: "Apex";
+  font-family: "Quantum";
   src: url(../assets/Quantum.otf) format("truetype");
 }
 
@@ -19,24 +19,28 @@
 body {
   font-family: "Lato", sans-serif;
 }
-h1 {
+h1,.logo {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
-  font-family: "Apex", condensed;
+  font-family: "Quantum", condensed;
 }
 
+.fas{
+  color:#33d9b2;
+}
+
+.text-center{
+  text-align: center;
+}
 /*===== Nav ====*/
 nav {
   background-color: #232A3B;
   color: #fff;
   font-size: 1.4em;
   padding: 20px;
-  text-align: center;
   text-transform: uppercase;
 }
-.logo {
-  font-size: 1.25em;
-}
+
 .logo span {
   color: #33d9b2;
 }
@@ -63,13 +67,13 @@ a {
   transition: all 2s ease-in-out;
 }
 
-.header-image h1 {
+.header-image h2 {
   color: #33d9b2;
   padding-top: 120px;
   font-size: 3em;
 }
 
-.header-image h2 {
+.header-image h3 {
   color: #fff;
   margin-top: 100px;
   margin-bottom: 25px;
@@ -82,15 +86,6 @@ a {
   border-color: #33d9b2;
   width: 300px;
   margin: 0 auto;
-}
-
-#callToAction {
-  align-items: center;
-  background-color: #20212a;
-  justify-content: center;
-  display: flex;
-  height: 50px;
-  width: 100%;
 }
 
 /* Media Queries */
