@@ -18,6 +18,7 @@
 
 body {
   font-family: "Lato", sans-serif;
+  line-height: 1.5;
 }
 h1,
 .logo {
@@ -34,6 +35,15 @@ h1,
   text-align: center;
 }
 
+/* hr CSS */
+hr{
+  background-color: #0e1110;
+  border: none;
+  height: 1px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
 /* Container CSS */
 
 .container {
@@ -47,7 +57,7 @@ nav {
   background-color: #232a3b;
   color: #fff;
   font-size: 1.4em;
-  padding: 20px;
+  padding: 20px 0;
   text-transform: uppercase;
 }
 
@@ -58,7 +68,7 @@ nav {
 .links {
   list-style-type: none;
 }
- li {
+li {
   margin-right: 25px;
 }
 li {
@@ -87,6 +97,11 @@ a {
   font-size: 3em;
 }
 
+.header-image h2 {
+  padding-top: 100px;
+  font-size: 2.5em;
+}
+
 .header-image h3 {
   color: #fff;
   margin-top: 100px;
@@ -98,23 +113,61 @@ a {
 }
 
 /* ServiceList CSS*/
+#services{
+margin-top:50px;
+}
 
 #services hr {
-  border-color: #33d9b2;
-  margin: 0 auto;
-  margin-top:10px;
-  width: 200px;
+  width: 150px;
 }
-.serviceList{
-  padding:20px 10px;
+#services p{
+  margin-top:30px;
+}
+.serviceList {
+  padding: 20px 10px;
+}
+ul.serviceList h3{
+  margin:10px 0;
+}
+.serviceList i{
+  margin-top:40px;
 }
 
 /* Pricing CSS*/
+#pricing{
+  background-color: #F4F4F4;
+  padding-top:50px;
+}
 
+#pricing hr{
+  width:100px;
+}
+
+/* Contact Us */
+
+/* Footer */
+footer{
+  background-color: #232a3b;
+  color: white;
+  padding:40px;
+}
+footer{
+  text-align: center;
+}
+.footer-title{
+  color: #33d9b2;
+  margin-bottom:10px;
+}
+
+#about-us p:nth-child(3){
+  margin-top: 20px; 
+  margin-bottom:20px;
+}
 
 /* Media Queries */
 
 @media only screen and (min-width: 1024px) {
+  
 }
 
 @media only screen and (min-width: 769px) {
@@ -123,7 +176,7 @@ a {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    font-size: 1em;
+    font-size: 1.1em;
   }
   .main-header nav {
     justify-content: space-around;
@@ -131,43 +184,53 @@ a {
     top: 0;
     width: 100%;
   }
-  .main-header ul {
-    margin-right: 10%;
-  }
+
   .main-header h1 {
     align-self: center;
     margin: 0 auto;
+    margin-left: -25px;
   }
   .main-header li {
     margin-right: 30px;
   }
-
+  .header-image h2 {
+    padding-top: 120px;
+    font-size: 3em;
+  }
   .flex-container {
     display: flex;
   }
-  .serviceList li {
+  .item-1,
+  .item-2,
+  .item-3 {
     flex-grow: 1;
   }
   .container {
     width: 80%;
   }
-}
-/*Tablet*/
-@media only screen and (min-width: 500px) {
-  .flex-container {
-    display: flex;
-  }
 
-  .flex-container li {
-    flex-grow: 1;
+  #contactInfo{
+    flex:2;
+  }
+  #about-us{
+    flex:5;
+  }
+  footer{
+    text-align: left;
+  }
+  #contactInfo p{ 
+    line-height:1.2;
   }
 }
+
 /* Mobile Landscape */
 @media only screen and (min-width: 480px) and (orientation: landscape) {
   .flex-container {
     display: flex;
   }
-  .flex-container li {
+  .item-1,
+  .item-2,
+  .item-3 {
     flex-grow: 1;
   }
 }
