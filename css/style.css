@@ -19,22 +19,32 @@
 body {
   font-family: "Lato", sans-serif;
 }
-h1,.logo {
+h1,
+.logo {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
   font-family: "Quantum", condensed;
 }
 
-.fas{
-  color:#33d9b2;
+.fas {
+  color: #33d9b2;
 }
 
-.text-center{
+.text-center {
   text-align: center;
 }
+
+/* Container CSS */
+
+.container {
+  margin: 0 auto 50px;
+  text-align: center;
+  width: 90%;
+}
+
 /*===== Nav ====*/
 nav {
-  background-color: #232A3B;
+  background-color: #232a3b;
   color: #fff;
   font-size: 1.4em;
   padding: 20px;
@@ -48,9 +58,13 @@ nav {
 .links {
   list-style-type: none;
 }
-.links li {
+ li {
   margin-right: 25px;
 }
+li {
+  list-style-type: none;
+}
+
 /* LINK CSS */
 a {
   color: #fff;
@@ -82,20 +96,30 @@ a {
 .header-image span {
   color: #33d9b2;
 }
-.header-image hr {
+
+/* ServiceList CSS*/
+
+#services hr {
   border-color: #33d9b2;
-  width: 300px;
   margin: 0 auto;
+  margin-top:10px;
+  width: 200px;
 }
+.serviceList{
+  padding:20px 10px;
+}
+
+/* Pricing CSS*/
+
 
 /* Media Queries */
 
 @media only screen and (min-width: 1024px) {
-
 }
 
 @media only screen and (min-width: 769px) {
-  .main-header nav, .main-header ul {
+  .main-header nav,
+  .main-header ul {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
@@ -117,11 +141,33 @@ a {
   .main-header li {
     margin-right: 30px;
   }
+
+  .flex-container {
+    display: flex;
+  }
+  .serviceList li {
+    flex-grow: 1;
+  }
+  .container {
+    width: 80%;
+  }
 }
 /*Tablet*/
 @media only screen and (min-width: 500px) {
+  .flex-container {
+    display: flex;
+  }
 
+  .flex-container li {
+    flex-grow: 1;
+  }
 }
 /* Mobile Landscape */
 @media only screen and (min-width: 480px) and (orientation: landscape) {
+  .flex-container {
+    display: flex;
+  }
+  .flex-container li {
+    flex-grow: 1;
+  }
 }

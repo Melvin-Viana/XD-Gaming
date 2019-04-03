@@ -22,7 +22,7 @@
 
   <body>
     <header class="main-header">
-      <nav class='text-center'>
+      <nav class="text-center">
         <a href="#" class="logo"
           ><h1><span>XDG </span>CAFE</h1></a
         >
@@ -39,12 +39,12 @@
       </div>
     </header>
     <main>
-      <section id="services" class='text-center'>
-        <h2 class="heading" style="border-bottom:2px solid">
+      <section id="services">
+       <div class="container"> <h2 class="heading" >
           Why Game With us?
         </h2>
         <hr />
-        <ul class="serviceList">
+        <ul class="flex-container serviceList" >
           <li>
             <i class="fas fa-gamepad fa-4x"></i>
             <h3>Latest gaming Equipment</h3>
@@ -54,7 +54,7 @@
             </p>
           </li>
           <li>
-            <i class="fas fa-user fa-4x"></i>
+              <i class="fas fa-user fa-4x"></i>
             <h3>Friendly Staff</h3>
             <p>
               Our staff ensure that you are comfortable and gaming as much as
@@ -62,7 +62,7 @@
             </p>
           </li>
           <li>
-            <i class="fas fa-calendar fa-4x"></i>
+              <i class="fas fa-calendar fa-4x"></i>
             <h3>Monthly Events</h3>
             <p>
               We host monthly tournaments as well regular sponsored giveaways to
@@ -70,6 +70,7 @@
             </p>
           </li>
         </ul>
+      </div>
       </section>
       <section id="pricing">
         <h2 class="heading">Pricing</h2>
@@ -114,31 +115,35 @@
     <footer>
       <div class="flex-container">
         <section id="about-us">
-            <h3 class='footer-title'>About Us</h3>
-            <p>At 2001 Soren Bjerg founded XD Gaming Cafe to share his love with gamers. He built this community to give gamers a place to enjoy and play alongside gamers. Thanks to the funding from San Diego Padres we have an eSports team and plan to grow our company throughout U.S.</p>
+          <h3 class="footer-title">About Us</h3>
+          <p>
+            At 2001 Soren Bjerg founded XD Gaming Cafe to share his love with
+            gamers. He built this community to give gamers a place to enjoy and
+            play alongside gamers. Thanks to the funding from San Diego Padres
+            we have an eSports team and plan to grow our company throughout U.S.
+          </p>
         </section>
         <section id="contactInfo">
-            <h3 class='footer-title'>Contact Us</h3>
+          <h3 class="footer-title">Contact Us</h3>
+          <p class="address">
+            <i class="fas fa-map-marker-alt"></i>
+            <b>Address</b>: San Diego 92121
+          </p>
+          <div class="phone">
             <p class="address">
-                <i class="fas fa-map-marker-alt"></i>
-                <b>Address</b>: San Diego 92121
+              <i class="fas fa-phone"></i>
+              <b>Phone</b>: (858) 203 1003
             </p>
-            <div class="phone">
-                <p class="address">
-                    <i class="fas fa-phone"></i>
-                    <b>Phone</b>: (858) 203 1003
-                </p>
-            </div>
-            <div class="email">
-                <p class="address">
-                    <i class="fas fa-mail"></i>
-                    <b>Email</b>: xdgcafe@gmail.com
-                </p>
-            </div>
+          </div>
+          <div class="email">
+            <p class="address">
+              <i class="fas fa-mail"></i>
+              <b>Email</b>: xdgcafe@gmail.com
+            </p>
+          </div>
         </section>
       </div>
       <p>&copy; Copyright XD Gaming Cafe - 2019</p>
-
     </footer>
     <script src="js/aos.js"></script>
     <script>
