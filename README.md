@@ -1,11 +1,30 @@
 
+# XDG Cafe
+
+San Diego's Premier Gaming Lounge.
+
+## Want to use my project as a template?
+
+I'm all for it!!! :smile:
+
+### Prerequisites 
+Requirements to load this project:
+- git bash
+
+### Installation
+
+
+1. Clone the repo
+`git clone https://github.com/Melvin-Viana/XD-Gaming.git `
+2. Open the project folder
+3. Open index.html in your favorite browser
+4. Enjoy! :thumbsup:
+## Built With
+- HTML5
+- CSS3
+- JavaScript
 ## Acknowledgments
- [Emmanuel](https://unsplash.com/@axvill) - Gaming Image
+- [Emmanuel](https://unsplash.com/@axvill) - Gaming Image
 
-[Sesohoq](https://www.sesohq.com/) - Quantum font
+- [Sesohoq](https://www.sesohq.com/) - Quantum font
 
-TODO: placeit.net for Mockup
-TODO: 
-1. Pricing
-2. Contact-us
-3. Footer
