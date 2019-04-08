@@ -28,7 +28,7 @@ h1,
   font-family: "Quantum", condensed;
 }
 
-.fas {
+.fas,.fab {
   color: #33d9b2;
 }
 
@@ -122,10 +122,9 @@ a {
   width: 150px;
 }
 #services p {
-  margin-top: 30px;
 }
 
-ul.serviceList h3 {
+.serviceList h3 {
   margin: 10px 0;
 }
 .serviceList i {
@@ -147,7 +146,7 @@ ul.serviceList h3 {
   background: #fff;
   margin-bottom: 30px;
   text-align: center;
-  transition: transform 0.2s;
+  transition: transform 0.5s;
 }
 
 .card:hover {
@@ -207,12 +206,10 @@ button:hover {
 input[type="text"],
 input[type="email"],
 input[type="password"],
-textarea,select{
+textarea{
   width: 100%;
   padding: 10px;
   margin:20px 0;
-}
-#contact .item-1 {
 }
 
 
@@ -227,14 +224,34 @@ footer {
 }
 .footer-title {
   color: #33d9b2;
-  margin-bottom: 10px;
-}
-
-#about-us p:nth-child(3) {
-  margin-top: 20px;
   margin-bottom: 20px;
 }
 
+#about-us>p{
+  margin-bottom:30px;
+}
+
+#contactInfo p{
+  margin-bottom:20px;
+}
+.social-links{
+  display:flex;
+  flex:wrap;
+}
+
+.social-links{
+  display: inline-block;
+  margin-bottom:20px;
+}
+.social-links .fab{
+color:#fff;
+padding:2px;
+transition:color 0.2s;
+
+}
+.social-links i:hover{
+ color:#33d9b2;
+}
 /* Media Queries */
 
 @media only screen and (min-width: 1024px) {
@@ -309,13 +326,13 @@ footer {
   }
   #about-us {
     flex: 5;
+    line-height:1.5;
+    margin-right:4%;
   }
   footer {
     text-align: left;
   }
-  #contactInfo p {
-    line-height: 1.2;
-  }
+
 }
 
 /* Mobile Landscape */
