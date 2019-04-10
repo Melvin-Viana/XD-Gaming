@@ -3,16 +3,11 @@
 
 San Diego's Premier Gaming Lounge.
 
-## Want to use my project as a template?
-
-I'm all for it!!! :smile:
+## Installation
 
 ### Prerequisites 
 Requirements to load this project:
 - git bash
-
-### Installation
-
 
 1. Clone the repo
 `git clone https://github.com/Melvin-Viana/XD-Gaming.git `
