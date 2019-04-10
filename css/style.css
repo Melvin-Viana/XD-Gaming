@@ -28,7 +28,8 @@ h1,
   font-family: "Quantum", condensed;
 }
 
-.fas,.fab {
+.fas,
+.fab {
   color: #33d9b2;
 }
 
@@ -121,8 +122,6 @@ a {
 #services hr {
   width: 150px;
 }
-#services p {
-}
 
 .serviceList h3 {
   margin: 10px 0;
@@ -199,19 +198,18 @@ button:hover {
   display: block;
 }
 
-.contact-button{
-  padding:10px;
-  width:100%;
+.contact-button {
+  padding: 10px;
+  width: 100%;
 }
 input[type="text"],
 input[type="email"],
 input[type="password"],
-textarea{
+textarea {
   width: 100%;
   padding: 10px;
-  margin:20px 0;
+  margin: 20px 0;
 }
-
 
 /* Footer */
 footer {
@@ -227,30 +225,28 @@ footer {
   margin-bottom: 20px;
 }
 
-#about-us>p{
-  margin-bottom:30px;
+#about-us > p {
+  margin-bottom: 30px;
 }
 
-#contactInfo p{
-  margin-bottom:20px;
+#contactInfo p {
+  margin-bottom: 20px;
 }
-.social-links{
-  display:flex;
-  flex:wrap;
+.social-links {
+  display: flex;
 }
 
-.social-links{
+.social-links {
   display: inline-block;
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
-.social-links .fab{
-color:#fff;
-padding:2px;
-transition:color 0.2s;
-
+.social-links .fab {
+  color: #fff;
+  padding: 2px;
+  transition: color 0.2s;
 }
-.social-links i:hover{
- color:#33d9b2;
+.social-links i:hover {
+  color: #33d9b2;
 }
 /* Media Queries */
 
@@ -326,13 +322,12 @@ transition:color 0.2s;
   }
   #about-us {
     flex: 5;
-    line-height:1.5;
-    margin-right:4%;
+    line-height: 1.5;
+    margin-right: 4%;
   }
   footer {
     text-align: left;
   }
-
 }
 
 /* Mobile Landscape */
