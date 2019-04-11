@@ -18,8 +18,9 @@ Requirements to load this project:
 - HTML5
 - CSS3
 - JavaScript
+
 ## Acknowledgments
 - [Emmanuel](https://unsplash.com/@axvill) - Gaming Image
-
 - [Sesohoq](https://www.sesohq.com/) - Quantum font
-
+- [AOS](https://michalsnik.github.io/aos/) - On-scroll animations
+- [Typed.js](https://github.com/mattboldt/typed.js/) - A JavaScript Typing Animation Library 
