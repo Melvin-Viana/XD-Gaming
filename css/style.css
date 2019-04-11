@@ -102,9 +102,7 @@ a {
   background: url("../assets/headerImg.jpg") no-repeat center;
   background-size: cover;
   min-height: 100vh;
-  overflow: none;
   text-align: center;
-  
 }
 
 .flex-center{
