@@ -2,6 +2,7 @@
 # XDG Cafe
 
 San Diego's Premier Gaming Lounge.
+
 [XD Gaming Cafe](http:/melvin-viana.github.io/XD-Gaming)
 ## Installation
 
