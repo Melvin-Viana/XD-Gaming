@@ -4,12 +4,12 @@
 San Diego's Premier Gaming Lounge.
 
 [XD Gaming Cafe](http:/melvin-viana.github.io/XD-Gaming)
-## Installation
+## Getting Started
 
 ### Prerequisites 
 Requirements to load this project:
 - git bash
-
+### Installation
 1. Clone the repo
 `git clone https://github.com/Melvin-Viana/XD-Gaming.git `
 2. Open the project folder
