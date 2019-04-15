@@ -395,4 +395,12 @@ footer {
   .container {
     width: 80%;
   }
+  nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .links li{
+    display:inline-block;
+  }
 }
